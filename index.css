@@ -39,10 +39,6 @@ body
 {
    border-width: 0;
 }
-#Shape4
-{
-   border-width: 0;
-}
 #Image3
 {
    border: 0px #000000 solid;
@@ -208,6 +204,10 @@ body
    border-width: 0;
 }
 #Shape18
+{
+   border-width: 0;
+}
+#Shape4
 {
    border-width: 0;
 }
