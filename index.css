@@ -19,13 +19,13 @@ body
    width: 100%;
    height: 100%;
 }
-#Image2
+#Shape8
 {
-   border: 0px #000000 solid;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
+   border-width: 0;
+}
+#Shape5
+{
+   border-width: 0;
 }
 #Shape1
 {
@@ -51,7 +51,51 @@ body
    width: 100%;
    height: 100%;
 }
-#Shape5
+#Shape7
+{
+   border-width: 0;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text1 div
+{
+   text-align: left;
+}
+#Image7
+{
+   border: 0px #000000 solid;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Image2
+{
+   border: 0px #000000 solid;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Image5
+{
+   border: 0px #000000 solid;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Shape6
+{
+   border-width: 0;
+}
+#Shape9
 {
    border-width: 0;
 }
@@ -63,7 +107,107 @@ body
    width: 100%;
    height: 100%;
 }
-#Shape6
+#wb_Text2 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text2 div
+{
+   text-align: left;
+}
+#Shape10
+{
+   border-width: 0;
+}
+#Image6
+{
+   border: 0px #000000 solid;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Text3 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text3 div
+{
+   text-align: left;
+}
+#Shape11
+{
+   border-width: 0;
+}
+#Shape12
+{
+   border-width: 0;
+}
+#wb_Text4 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text4 div
+{
+   text-align: left;
+}
+#wb_Text5 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text5 div
+{
+   text-align: left;
+}
+#wb_Text6 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text6 div
+{
+   text-align: left;
+}
+#Shape13
+{
+   border-width: 0;
+}
+#Shape14
+{
+   border-width: 0;
+}
+#Shape16
+{
+   border-width: 0;
+}
+#Shape15
+{
+   border-width: 0;
+}
+#Shape17
+{
+   border-width: 0;
+}
+#Shape18
 {
    border-width: 0;
 }
