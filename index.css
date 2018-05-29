@@ -183,22 +183,6 @@ body
 {
    text-align: left;
 }
-#Shape13
-{
-   border-width: 0;
-}
-#Shape14
-{
-   border-width: 0;
-}
-#Shape16
-{
-   border-width: 0;
-}
-#Shape15
-{
-   border-width: 0;
-}
 #Shape17
 {
    border-width: 0;
@@ -210,4 +194,16 @@ body
 #Shape4
 {
    border-width: 0;
+}
+#Image8
+{
+   border: 0px #000000 solid;
+   -webkit-animation: transform-rotate 9999ms linear 0ms 500 normal;
+   -moz-animation: transform-rotate 9999ms linear 0ms 500 normal;
+   -ms-animation: transform-rotate 9999ms linear 0ms 500 normal;
+   animation: transform-rotate 9999ms linear 0ms 500 normal;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
 }
