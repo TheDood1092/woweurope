@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 10 - http://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+<link href="fakescapp.css" rel="stylesheet">
+<link href="page1.css" rel="stylesheet">
+</head>
+<body>
+<div id="wb_Image1" style="position:absolute;left:0px;top:0px;width:300px;height:533px;z-index:0;">
+<img src="images/stagecoach.gif" id="Image1" alt=""></div>
+<div id="wb_Shape8" style="position:absolute;left:7px;top:109px;width:276px;height:366px;z-index:1;">
+<img src="images/img0003.png" id="Shape8" alt="" style="width:276px;height:366px;"></div>
+<div id="wb_Shape5" style="position:absolute;left:11px;top:109px;width:276px;height:366px;z-index:2;">
+<img src="images/img0004.png" id="Shape5" alt="" style="width:276px;height:366px;"></div>
+<div id="wb_Image3" style="position:absolute;left:20px;top:112px;width:160px;height:126px;z-index:3;">
+<img src="images/img0005.png" id="Image3" alt=""></div>
+<div id="wb_Shape7" style="position:absolute;left:20px;top:238px;width:263px;height:94px;z-index:4;">
+<img src="images/img0006.png" id="Shape7" alt="" style="width:263px;height:94px;"></div>
+<div id="wb_JavaScript2" style="position:absolute;left:157px;top:306px;width:126px;height:25px;z-index:5;">
+<div style="color:#FFFFFF;font-size:16px;font-family:Lucida Sans Unicode;font-weight:normal;font-style:normal;text-align:left;text-decoration:none" id="countdown"></div>
+<script>
+var strTargetDate = "12/25/2050 12:00 AM";
+var strFormat = "$HOURS$ h, $MINUTES$ m, $SECONDS$ s";
+var strExpired = "Expired";
+
+function doCountDown(seconds) 
+{
+   if (seconds < 0) 
+   {
+      document.getElementById("countdown").innerHTML = strExpired;
+      return;
+   }
+   var strMsg = strFormat;
+   strMsg = strMsg.replace("$DAYS$",    ((Math.floor(seconds/86400))%100000).toString());
+   strMsg = strMsg.replace("$HOURS$",   ((Math.floor(seconds/3600))%24).toString());
+   strMsg = strMsg.replace("$MINUTES$", ((Math.floor(seconds/60))%60).toString());
+   strMsg = strMsg.replace("$SECONDS$",  ((Math.floor(seconds))%60).toString()); 
+
+   document.getElementById("countdown").innerHTML = strMsg;
+
+   setTimeout("doCountDown(" + (seconds-1).toString() + ")", 1000);
+}
+function initCountDown()
+{
+   var dtTarget = new Date(strTargetDate);
+   var dtNow = new Date();
+   var dtDiff = new Date(dtTarget-dtNow);
+   var totalSeconds = Math.floor(dtDiff.valueOf()/1000);
+
+   doCountDown(totalSeconds);
+}
+initCountDown();
+</script>
+
+</div>
+<div id="wb_Text1" style="position:absolute;left:29px;top:307px;width:151px;height:18px;z-index:6;text-align:left;">
+<span style="color:#FFFFFF;font-family:'Lucida Sans Unicode';font-size:15px;">Time remaining</span></div>
+<div id="wb_Image2" style="position:absolute;left:180px;top:208px;width:103px;height:26px;z-index:7;">
+<img src="images/Stagecoach-logo.png" id="Image2" alt=""></div>
+<div id="wb_Shape6" style="position:absolute;left:20px;top:340px;width:263px;height:33px;z-index:8;">
+<img src="images/img0016.png" id="Shape6" alt="" style="width:263px;height:33px;"></div>
+<div id="wb_Shape9" style="position:absolute;left:20px;top:372px;width:263px;height:52px;z-index:9;">
+<img src="images/img0017.png" id="Shape9" alt="" style="width:263px;height:52px;"></div>
+<div id="wb_Image4" style="position:absolute;left:27px;top:348px;width:11px;height:14px;z-index:10;">
+<img src="images/location.png" id="Image4" alt=""></div>
+<div id="wb_Text2" style="position:absolute;left:46px;top:348px;width:213px;height:16px;z-index:11;text-align:left;">
+<span style="color:#4169E1;font-family:'Lucida Sans Unicode';font-size:13px;">Areas this ticket covers</span></div>
+<div id="wb_Shape10" style="position:absolute;left:197px;top:347px;width:11px;height:17px;z-index:12;">
+<img src="images/img0018.png" id="Shape10" alt="" style="width:11px;height:17px;"></div>
+<div id="wb_Shape13" style="position:absolute;left:55px;top:245px;width:191px;height:34px;z-index:13;">
+<img src="images/img0021.png" id="Shape13" alt="" style="width:191px;height:34px;"></div>
+<div id="wb_Image6" style="position:absolute;left:26px;top:383px;width:14px;height:14px;z-index:14;">
+<img src="images/info.png" id="Image6" alt=""></div>
+<div id="wb_Text3" style="position:absolute;left:45px;top:381px;width:230px;height:15px;z-index:15;text-align:left;">
+<span style="color:#000000;font-family:'Lucida Sans Unicode';font-size:11px;">Travel between 00:00 until 04:00</span></div>
+<div id="wb_Shape11" style="position:absolute;left:15px;top:274px;width:66px;height:31px;z-index:16;">
+<img src="images/img0022.png" id="Shape11" alt="" style="width:66px;height:31px;"></div>
+<div id="wb_Shape12" style="position:absolute;left:12px;top:238px;width:10px;height:102px;z-index:17;">
+<img src="images/img0023.png" id="Shape12" alt="" style="width:10px;height:102px;"></div>
+<div id="wb_Text5" style="position:absolute;left:46px;top:400px;width:230px;height:15px;z-index:18;text-align:left;">
+<span style="color:#4169E1;font-family:'Lucida Sans Unicode';font-size:11px;"><strong>Terms &amp; Conditions</strong></span></div>
+<div id="wb_Text6" style="position:absolute;left:21px;top:434px;width:239px;height:32px;z-index:19;text-align:left;">
+<span style="color:#A9A9A9;font-family:Arial;font-size:13px;">Order Number:<br>1529-287649337377465395-443</span></div>
+<div id="wb_Text4" style="position:absolute;left:31px;top:277px;width:177px;height:21px;z-index:20;text-align:left;">
+<span style="color:#FFFFFF;font-family:'Lucida Sans Unicode';font-size:17px;">08:35, June 2, 2018</span></div>
+<div id="wb_Shape17" style="position:absolute;left:9px;top:8px;width:26px;height:26px;filter:alpha(opacity=50);-moz-opacity:0.50;opacity:0.50;z-index:21;">
+<img src="images/img0024.png" id="Shape17" alt="" style="width:26px;height:26px;"></div>
+<div id="wb_Image5" style="position:absolute;left:28px;top:248px;width:12px;height:20px;z-index:22;">
+<img src="images/LogoMakr_2aZAlB.png" id="Image5" alt=""></div>
+<div id="wb_Shape18" style="position:absolute;left:16px;top:15px;width:12px;height:12px;z-index:23;">
+<img src="images/img0025.png" id="Shape18" alt="" style="width:12px;height:12px;"></div>
+<div id="wb_Image8" style="position:absolute;left:69px;top:52px;width:21px;height:21px;z-index:24;">
+<img src="images/triangles.png" id="Image8" alt=""></div>
+<div id="wb_Image7" style="position:absolute;left:46px;top:246px;width:69px;height:26px;z-index:25;">
+<img src="images/activesince.png" id="Image7" alt=""></div>
+<div id="wb_Shape1" style="position:absolute;left:68px;top:51px;width:22px;height:22px;z-index:26;">
+<img src="images/img0026.png" id="Shape1" alt="" style="width:22px;height:22px;"></div>
+</body>
+</html>
